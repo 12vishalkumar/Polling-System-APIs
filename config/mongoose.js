@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 
 
 //-------------------- mongo db url ----------------------------//
-const password = "12345";
-const DB_URL = `mongodb+srv://vk131474:${password}@polling-api.wjzinzg.mongodb.net/?retryWrites=true&w=majority`;
+// const password = "12345";
+const DB_URL = `mongodb+srv://vk131474:BfUXvqeNYqM7aufe@polling-api.wjzinzg.mongodb.net/?retryWrites=true&w=majority`;
 
 //------------------- connecting to the mongo db ---------------//
 mongoose.connect(DB_URL, {
