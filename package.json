@@ -1,0 +1,18 @@
+{
+  "name": "polling-system-api",
+  "version": "1.0.0",
+  "description": "Creating an API where anyone can create questions with options and also add votes. This is going to be a completely open application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Vishal Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.1.0"
+  }
+}
